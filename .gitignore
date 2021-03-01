@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 # large files
 word_emb_w2v.txt
+aclImdb/.
