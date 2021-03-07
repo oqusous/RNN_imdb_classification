@@ -130,3 +130,6 @@ dmypy.json
 # large files
 word_emb_w2v.txt
 aclImdb/
+glove.6B.300d.txt
+aclImdb_v1.tar.gz.tar.gz
+SS/
