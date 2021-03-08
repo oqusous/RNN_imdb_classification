@@ -7,4 +7,6 @@ Results:
 |-----------|-----------|------------------|-----------------|
 | Accuracy  | 82%       | 85%              | 85%             |
 
-Next step is build a model using Transformer encoder pre-trained model BERT
+Next steps:
+- Finetune RNNs to increase by altering the architecture and using a different vector embedding representation. 
+- Build a model using Transformer encoder pre-trained model BERT.
