@@ -133,4 +133,4 @@ aclImdb/
 glove.6B.300d.txt
 aclImdb_v1.tar.gz.tar.gz
 SS/
-.h5
+*.h5
