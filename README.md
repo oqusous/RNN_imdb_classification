@@ -15,7 +15,7 @@ The models that were used are:
 ![Bi-directional reccurant LSTM cell model accuracy and loss plots](plots/history.png)
 <br></br>
 ### Conventional and reccurant LSTM cell model accuracy and loss plots
-!conventional and reccurant LSTM cell model accuracy and loss plots](plots/history_crnn.png)
+![conventional and reccurant LSTM cell model accuracy and loss plots](plots/history_crnn.png)
 <br></br>
 ### NNLM 128 Embedding
 ![NNLM 128 Embedding](plots/history2.png)
