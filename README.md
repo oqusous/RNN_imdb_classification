@@ -1,12 +1,23 @@
-# imdb_sentiment_analysis_NBayes_vs_RNN
+# fakenews_text_classification
 
-Google Colab was used to write the code to make use of its GPU computing feature.
+# Objective
+Try different classification techniques on the fake news dataset provided by kagggle https://www.kaggle.com/c/fake-news/submissions
 
-Results:
-| Method    | MnNB      | Single Layer RNN | Multi-Layer RNN |
-|-----------|-----------|------------------|-----------------|
-| Accuracy  | 82%       | 85%              | 85%             |
+The Machine Learning models that were used are:
+* Neural Network model with Bi-directional reccurant LSTM cell Layer. Glove embeddings were used in the input layer.
+* Neural Network model with conventional and reccurant/LSTM-cell layers. Glove embeddings were used in the input layer. 
+* Pre-trained NNLM 128 Model (https://tfhub.dev/google/nnlm-en-dim128/2) embedding layer with dense classifier layer.
+* Naive Bayes
 
-Next steps:
-- Finetune RNNs to increase by altering the architecture and using a different vector embedding representation. 
-- Build a model using Transformer encoder pre-trained model BERT.
+# Results
+
+![Bi-directional reccurant LSTM cell model accuracy and loss plots](plots/history.png)
+
+![Bi-directional reccurant LSTM cell model accuracy and loss plots](plots/history_crnn.png)
+
+![Bi-directional reccurant LSTM cell model accuracy and loss plots](plots/history2.png)
+
+
+Test scores accroding to kaggle:
+
+![Bi-directional reccurant LSTM cell model accuracy and loss plots](pred_results.PNG)
